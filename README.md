@@ -1,6 +1,6 @@
-# AngularCrash
+# Task-Tracker-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5. The application is written followed the Angular Crash Course by Traversy Media
 
 ## Development server
 

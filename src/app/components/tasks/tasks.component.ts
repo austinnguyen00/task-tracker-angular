@@ -17,4 +17,10 @@ export class TasksComponent {
       this.tasks = tasks;
     })
   }
+
+  deleteTask(task: Task): void {
+    this.taskService
+      .deleteTask(task)
+      .subscribe(() => { this.tasks = this.tasks.filter(t => t.id !== task.id) })
+  }
 }
